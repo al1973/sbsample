@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on test</title>
+    <link>https://sb-test-text.netlify.com/post/</link>
+    <description>Recent content in Posts on test</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Oct 2018 13:16:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://sb-test-text.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sydney Brown</title>
+      <link>https://sb-test-text.netlify.com/post/sydney-brown/</link>
+      <pubDate>Tue, 23 Oct 2018 13:16:24 +0100</pubDate>
+      
+      <guid>https://sb-test-text.netlify.com/post/sydney-brown/</guid>
+      <description>It’s easy to make a pair of eco-friendly shoes. Just follow these simple steps: You’ve found your niche market, now you just need to compete productively &amp;mdash; it’s survival of the best fitting. Engage with local, social, cultural and economic forces. Be expansive in your design considerations and recognize distant effects. Stay in business while you transform and innovate. Be a natural capitalist &amp;mdash; take into account the values of natural systems and resources.</description>
+    </item>
+    
+  </channel>
+</rss>
