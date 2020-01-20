@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Steps to Successful Design - Sample Blog Posts</title>
+    
+    <meta name="description" content="It is believed that humans do not respond to the physical properties of things – to their form, structure and function – but to their individual and cultural meanings. Good design is human-centered, the acknowledgement that meaning and emotion may be more critical to a product’s success than its practical elements. Products and systems that make you feel good are easier to deal with and produce more harmonious results.
+Good design predicts what the customer wants before they know it, so it is important to:">
+    <meta name="author" content="Alan Ryan">
+    
+    <link href="https://sb-test-text.netlify.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://sb-test-text.netlify.com/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://sb-test-text.netlify.com/apple-touch-icon.png">
+    <link rel="icon" href="https://sb-test-text.netlify.com/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.1" />
+    
+    <link rel="alternate" type="application/atom+xml" href="https://sb-test-text.netlify.com/index.xml" title="Sample Blog Posts">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="https://sb-test-text.netlify.com/">Sample Blog Posts</a></p>
+        
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Steps to Successful Design</h1>
+    <div class="post-meta">Alan Ryan · January 4, 2020</div>
+  </header>
+  <div class="post-content"><p>It is believed that humans do not respond to the physical properties of things – to their form, structure and function – but to their individual and cultural meanings. Good design is human-centered, the acknowledgement that meaning and emotion may be more critical to a product’s success than its practical elements. Products and systems that make you feel good are easier to deal with and produce more harmonious results.</p>
+<p>Good design predicts what the customer wants before they know it, so it is important to:</p>
+<ul>
+<li>identify problems, needs and opportunities</li>
+<li>be aware of work-arounds, short cuts and badly designed products</li>
+<li>don’t restrict your thinking to the known market</li>
+</ul>
+<p>Remember that designers can succeed only when their proposals are understandable to those who matter, so understand:</p>
+<ul>
+<li>desirable factors and those that are undesirable</li>
+<li>the concepts and meanings of the user – what are they accustomed to doing and confident in being able to handle</li>
+<li>how interactions with the product might evolve over time</li>
+</ul>
+<p>If possible involve the customer in the design process, learning from their learning processes as the work progresses. Design artifacts that increase the users’ ability to design on their own. Assure that the discourse of the design grows and remains reliable. When you do something wrong, don’t try to improve upon it; the replacement is a distraction not a solution, and merely confounds the problem.</p>
+<p>Consider these general principles of design:</p>
+<ul>
+<li>A design should not encourage more than it can deliver. Promising less is preferable to offering too much</li>
+<li>The design should direct users attention but also discourage paths that would get users into trouble</li>
+<li>Meanings shift in use, so allow space for new interpretations to emerge.</li>
+</ul>
+<p>In summary a “good designer searches the present for variables, things they are able to vary, move, influence, alter, combine, take apart, re-assemble or change” (Krippendorff, 2005). They have the ability to alter these variables to provide desirable outcomes and help them to become a reality.</p>
+<p>Design is an everyday activity, an effort to change existing conditions into preferred ones. Designers design artifacts that increase their users’ ability to design on their own. They assure that the message of the design grows and remains reliable. Designs succeed when their proposals are understandable to those who matter; when people are inspired by its promises; and when the concept gains the social support needed to succeed.</p>
+<p>Keep in mind how users approach products and how the design might evolve. Designers need to realize that they cannot build meaning into a design or force a meaning on others. A design should not encourage more than it can deliver – less can be better. Learning is being human, meanings continually shift in use. User concepts are never stable; therefore, a good design allows spaces for new interpretations to emerge.</p>
+<p><strong>References</strong></p>
+<p>The Semantic Turn: A New Foundation for Design by Klaus Krippendorff</p>
+<p>Emotional Design: Why We Love (or Hate) Everyday Things by Don Norman</p>
+<p>Cradle to Cradle by Michael Braungart &amp; William McDonough</p>
+</div>
+  
+  
+  
+  
+  
+</article>
+
+</main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="https://sb-test-text.netlify.com/">Sample Blog Posts</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://sb-test-text.netlify.com/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Posts - Sample Blog Posts</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="https://sb-test-text.netlify.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://sb-test-text.netlify.com/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://sb-test-text.netlify.com/apple-touch-icon.png">
+    <link rel="icon" href="https://sb-test-text.netlify.com/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.1" />
+    
+    <link rel="alternate" type="application/atom+xml" href="https://sb-test-text.netlify.com/index.xml" title="Sample Blog Posts">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="https://sb-test-text.netlify.com/">Sample Blog Posts</a></p>
+        
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+
+
+<header class="page-header">
+  <h1>Posts</h1>
+</header>
+
+
+
+
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Material Dependencies</h2>
+  </header>
+  <section class="entry-content">
+   <p>Douglas Coupland summed it up well – worrying about money is like having “locked-in syndrome except you’re still moving around and doing things. Your head burns. Anything that looks like other people not having money problems infuriates you”. It becomes a source of obsession and anger, as essentially, it limits our participation in the world and constantly reminds us of what we are lacking. How can we overcome these anxieties when we seem to have an instinctive urge to adhere to the temporal and material structure of everyday life?...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 5, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://sb-test-text.netlify.com/post/material-dependencies/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Steps to Successful Design</h2>
+  </header>
+  <section class="entry-content">
+   <p>It is believed that humans do not respond to the physical properties of things – to their form, structure and function – but to their individual and cultural meanings. Good design is human-centered, the acknowledgement that meaning and emotion may be more critical to a product’s success than its practical elements. Products and systems that make you feel good are easier to deal with and produce more harmonious results.
+Good design predicts what the customer wants before they know it, so it is important to:...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 4, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://sb-test-text.netlify.com/post/steps-to-successful-design/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Art in the Public Domain</h2>
+  </header>
+  <section class="entry-content">
+   <p>If an artwork is in the public domain it is free to use without permission. There are four common reasons why a work of art can fall into the public domain:
+ the copyright has expired; the copyright owner failed to follow copyright renewal rules; the copyright owner deliberately places it in the public domain, known as “dedication,” or; copyright law does not protect the work.  Copyright has now expired for all works published in the United States before 1924....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 3, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://sb-test-text.netlify.com/post/art-in-the-public-domain/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Sydney Brown</h2>
+  </header>
+  <section class="entry-content">
+   <p>It’s easy to make a pair of eco-friendly shoes. Just follow these simple steps: You’ve found your niche market, now you just need to compete productively — it’s survival of the best fitting. Engage with local, social, cultural and economic forces. Be expansive in your design considerations and recognize distant effects. Stay in business while you transform and innovate. Be a natural capitalist — take into account the values of natural systems and resources....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 2, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://sb-test-text.netlify.com/post/sydney-brown/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Port Wine</h2>
+  </header>
+  <section class="entry-content">
+   <p>The Douro is a Portuguese wine region located on the banks of the river of the same name. It is situated far upstream from the city of Porto. The region has Portugal&#39;s highest wine classification — Denominação de Origem Controlada (DOC).
+Port wine is produced from grapes grown and processed in this demarcated region. The wine is fortified by the addition of a neutral grape spirit known as aguardente. This stops the fermentation process and results in Port&#39;s high sugar and alcohol levels....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 1, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://sb-test-text.netlify.com/post/port-wine/"></a>
+</article>
+
+
+
+
+</main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="https://sb-test-text.netlify.com/">Sample Blog Posts</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://sb-test-text.netlify.com/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

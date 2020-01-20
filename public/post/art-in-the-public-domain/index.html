@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Art in the Public Domain - Sample Blog Posts</title>
+    
+    <meta name="description" content="If an artwork is in the public domain it is free to use without permission. There are four common reasons why a work of art can fall into the public domain:
+ the copyright has expired; the copyright owner failed to follow copyright renewal rules; the copyright owner deliberately places it in the public domain, known as “dedication,” or; copyright law does not protect the work.  Copyright has now expired for all works published in the United States before 1924.">
+    <meta name="author" content="Alan Ryan">
+    
+    <link href="https://sb-test-text.netlify.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://sb-test-text.netlify.com/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://sb-test-text.netlify.com/apple-touch-icon.png">
+    <link rel="icon" href="https://sb-test-text.netlify.com/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.1" />
+    
+    <link rel="alternate" type="application/atom+xml" href="https://sb-test-text.netlify.com/index.xml" title="Sample Blog Posts">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="https://sb-test-text.netlify.com/">Sample Blog Posts</a></p>
+        
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Art in the Public Domain</h1>
+    <div class="post-meta">Alan Ryan · January 3, 2020</div>
+  </header>
+  <div class="post-content"><p>If an artwork is in the public domain it is free to use without permission. There are four common reasons why a work of art can fall into the public domain:</p>
+<ul>
+<li>the copyright has expired;</li>
+<li>the copyright owner failed to follow copyright renewal rules;</li>
+<li>the copyright owner deliberately places it in the public domain, known as “dedication,” or;</li>
+<li>copyright law does not protect the work.</li>
+</ul>
+<p>Copyright has now expired for all works published in the United States before 1924.  For an artwork created after 1977 the copyright will not expire until 70 years after the artist's death.</p>
+<p>There is an exception to the rules on reproducing copyrighted work known as “fair use”. This is the use of copyrighted material as a means to comment, criticize or parody the work. If the reproduction is used in this way then it may not be considered an infringement.</p>
+<p>Remember, that even if a work of art is in the public domain, photographs of works may themselves be copyrighted and these probably will require permission for publication. For example a museum can copyright an artwork that is in the public domain. The copyright is not on the work of art itself but the museum's reproduction of that work.  The museum photographer takes a picture of the artwork and this photograph is then reproduced on t-shirts, prints, mugs, calendars, etc., providing a major source of revenue.</p>
+<p>Museums are the correct institutions to recreate and distribute artwork.  They have an incentive to reproduce, at a high quality, the work in their collections as it will increase public interest in the museum and the collection.  They have the staff and expertise to best complete this process. Even when an artist's copyright is still valid a museum is often licensed to create the reproductions.</p>
+<p>Simply taking images from books or the internet for your own purposes is a violation of the rights of the artist, the publisher of the book, and the photographer who supplied the original photographic material. By doing so you leave yourself open to legal action and damage the integrity of the original work.</p>
+<p><strong>References</strong></p>
+<p><em>After &lsquo;Bridgeman&rsquo;: Copyright, Museums, and Public Domain Works of Art</em> by Robin J. Allan</p>
+<p>Artists Rights Society</p>
+<p>Copyright and Fair Use - Stanford University Libraries</p>
+</div>
+  
+  
+  
+  
+  
+</article>
+
+</main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="https://sb-test-text.netlify.com/">Sample Blog Posts</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://sb-test-text.netlify.com/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+
