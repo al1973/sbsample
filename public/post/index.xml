@@ -1,23 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on test</title>
+    <title>Posts on Sample Blog Posts</title>
     <link>https://sb-test-text.netlify.com/post/</link>
-    <description>Recent content in Posts on test</description>
+    <description>Recent content in Posts on Sample Blog Posts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Oct 2018 13:16:24 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 13:16:24 +0100</lastBuildDate>
     
 	<atom:link href="https://sb-test-text.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Material Dependencies</title>
+      <link>https://sb-test-text.netlify.com/post/material-dependencies/</link>
+      <pubDate>Sun, 05 Jan 2020 13:16:24 +0100</pubDate>
+      
+      <guid>https://sb-test-text.netlify.com/post/material-dependencies/</guid>
+      <description>Douglas Coupland summed it up well – worrying about money is like having “locked-in syndrome except you’re still moving around and doing things. Your head burns. Anything that looks like other people not having money problems infuriates you”. It becomes a source of obsession and anger, as essentially, it limits our participation in the world and constantly reminds us of what we are lacking. How can we overcome these anxieties when we seem to have an instinctive urge to adhere to the temporal and material structure of everyday life?</description>
+    </item>
+    
+    <item>
+      <title>Steps to Successful Design</title>
+      <link>https://sb-test-text.netlify.com/post/steps-to-successful-design/</link>
+      <pubDate>Sat, 04 Jan 2020 13:16:24 +0100</pubDate>
+      
+      <guid>https://sb-test-text.netlify.com/post/steps-to-successful-design/</guid>
+      <description>It is believed that humans do not respond to the physical properties of things – to their form, structure and function – but to their individual and cultural meanings. Good design is human-centered, the acknowledgement that meaning and emotion may be more critical to a product’s success than its practical elements. Products and systems that make you feel good are easier to deal with and produce more harmonious results.
+Good design predicts what the customer wants before they know it, so it is important to:</description>
+    </item>
+    
+    <item>
+      <title>Art in the Public Domain</title>
+      <link>https://sb-test-text.netlify.com/post/art-in-the-public-domain/</link>
+      <pubDate>Fri, 03 Jan 2020 13:16:24 +0100</pubDate>
+      
+      <guid>https://sb-test-text.netlify.com/post/art-in-the-public-domain/</guid>
+      <description>If an artwork is in the public domain it is free to use without permission. There are four common reasons why a work of art can fall into the public domain:
+ the copyright has expired; the copyright owner failed to follow copyright renewal rules; the copyright owner deliberately places it in the public domain, known as “dedication,” or; copyright law does not protect the work.  Copyright has now expired for all works published in the United States before 1924.</description>
+    </item>
+    
+    <item>
       <title>Sydney Brown</title>
       <link>https://sb-test-text.netlify.com/post/sydney-brown/</link>
-      <pubDate>Tue, 23 Oct 2018 13:16:24 +0100</pubDate>
+      <pubDate>Thu, 02 Jan 2020 13:16:24 +0100</pubDate>
       
       <guid>https://sb-test-text.netlify.com/post/sydney-brown/</guid>
       <description>It’s easy to make a pair of eco-friendly shoes. Just follow these simple steps: You’ve found your niche market, now you just need to compete productively &amp;mdash; it’s survival of the best fitting. Engage with local, social, cultural and economic forces. Be expansive in your design considerations and recognize distant effects. Stay in business while you transform and innovate. Be a natural capitalist &amp;mdash; take into account the values of natural systems and resources.</description>
+    </item>
+    
+    <item>
+      <title>Port Wine</title>
+      <link>https://sb-test-text.netlify.com/post/port-wine/</link>
+      <pubDate>Wed, 01 Jan 2020 13:16:24 +0100</pubDate>
+      
+      <guid>https://sb-test-text.netlify.com/post/port-wine/</guid>
+      <description>The Douro is a Portuguese wine region located on the banks of the river of the same name. It is situated far upstream from the city of Porto. The region has Portugal&#39;s highest wine classification &amp;mdash; Denominação de Origem Controlada (DOC).
+Port wine is produced from grapes grown and processed in this demarcated region. The wine is fortified by the addition of a neutral grape spirit known as aguardente. This stops the fermentation process and results in Port&#39;s high sugar and alcohol levels.</description>
     </item>
     
   </channel>

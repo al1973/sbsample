@@ -1,4 +1,4 @@
 baseURL = "https://sb-test-text.netlify.com/"
 languageCode = "en-us"
-title = "test"
-theme = "hugo-theme-novela"
+title = "Sample Blog Posts"
+theme = "hugo-paper"
