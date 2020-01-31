@@ -14,7 +14,7 @@ If an artwork is in the public domain it is free to use without permission. Ther
 
 Copyright has now expired for all works published in the United States before 1924.  For an artwork created after 1977 the copyright will not expire until 70 years after the artist's death.  
 
-There is an exception to the rules on reproducing copyrighted work known as &ldquofair use&rdquo. This is the use of copyrighted material as a means to comment, criticize or parody the work. If the reproduction is used in this way then it may not be considered an infringement.
+There is an exception to the rules on reproducing copyrighted work known as "fair use". This is the use of copyrighted material as a means to comment, criticize or parody the work. If the reproduction is used in this way then it may not be considered an infringement.
 
 Remember, that even if a work of art is in the public domain, photographs of works may themselves be copyrighted and these probably will require permission for publication. For example a museum can copyright an artwork that is in the public domain. The copyright is not on the work of art itself but the museum's reproduction of that work.  The museum photographer takes a picture of the artwork and this photograph is then reproduced on t-shirts, prints, mugs, calendars, etc., providing a major source of revenue.  
 
